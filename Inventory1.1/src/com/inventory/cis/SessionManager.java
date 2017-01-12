@@ -60,7 +60,12 @@ public class SessionManager {
 		editor.commit();
 	}
 
-	
+	public void registerUser(String email, String pass) {
+		editor.putString(KEY_EMAIL, email);
+		editor.putString(KEY_UserPassword, pass);
+		// commit changes
+		editor.commit();
+	}
 	/**
 	 * Check login method wil check user login status If false it will redirect
 	 * user to login page Else won't do anything
@@ -106,6 +111,8 @@ public class SessionManager {
 	public void logoutUser() {
 		// Clearing all data from Shared Preferences
 		try {
+
+			registerUser("","");
 
 			Intent i = new Intent(_context, LoginActivity.class);
 			// Closing all the Activities

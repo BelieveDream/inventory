@@ -5,29 +5,29 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="136468408854974"
+    timestamp="139502454732835"
     token="3778818332714057619"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="303" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="19" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
     <artifact
         location="D:\github\inventory\Inventory1.1\build\outputs\apk\Inventory1.1-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="136468408854974"
+        timestamp="139502454732835"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\github\inventory\Inventory1.1\build\outputs\apk\Inventory1.1-debug.apk"

@@ -201,7 +201,7 @@ public class ViewInventoryActicity extends Activity implements OnClickListener {
                 break;
             case R.id.btn_back:
                 Intent intent = new Intent(getApplicationContext(), homeActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                //intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 finish();
         }
