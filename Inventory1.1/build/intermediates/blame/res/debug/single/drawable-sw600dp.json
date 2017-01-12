@@ -4,12 +4,36 @@
         "source": "D:\\project\\Android\\Inventory1.1\\res\\drawable-sw600dp\\sp_back.png"
     },
     {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\all_page_background.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\all_page_background.png"
+    },
+    {
         "merged": "D:\\project\\Android\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\sp_back_small.png",
         "source": "D:\\project\\Android\\Inventory1.1\\res\\drawable-sw600dp\\sp_back_small.png"
     },
     {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\sp_back_small.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\sp_back_small.png"
+    },
+    {
         "merged": "D:\\project\\Android\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\icon_logout.png",
         "source": "D:\\project\\Android\\Inventory1.1\\res\\drawable-sw600dp\\icon_logout.png"
+    },
+    {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\btn_signin.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\btn_signin.png"
+    },
+    {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\icon_logout.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\icon_logout.png"
+    },
+    {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\et_back.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\et_back.png"
+    },
+    {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\background_deshboard.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\background_deshboard.png"
     },
     {
         "merged": "D:\\project\\Android\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\et_small_back.png",
@@ -24,6 +48,10 @@
         "source": "D:\\project\\Android\\Inventory1.1\\res\\drawable-sw600dp\\btn_signin.png"
     },
     {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\edt_pass.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\edt_pass.png"
+    },
+    {
         "merged": "D:\\project\\Android\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\background_deshboard.png",
         "source": "D:\\project\\Android\\Inventory1.1\\res\\drawable-sw600dp\\background_deshboard.png"
     },
@@ -34,5 +62,13 @@
     {
         "merged": "D:\\project\\Android\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\et_back.png",
         "source": "D:\\project\\Android\\Inventory1.1\\res\\drawable-sw600dp\\et_back.png"
+    },
+    {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\et_small_back.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\et_small_back.png"
+    },
+    {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp\\sp_back.png",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\drawable-sw600dp\\sp_back.png"
     }
 ]

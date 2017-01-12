@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\github\\inventory\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
+        "source": "D:\\github\\inventory\\Inventory1.1\\res\\menu\\activity_main.xml"
+    },
+    {
         "merged": "D:\\project\\Android\\Inventory1.1\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
         "source": "D:\\project\\Android\\Inventory1.1\\res\\menu\\activity_main.xml"
     }

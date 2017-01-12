@@ -72,7 +72,7 @@
     <string name="DTQ">Choose Desired Trade Questions</string>
     <string name="already_registered">Device is already registered on server.</string>
     <string name="app_name">Inventory</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">383b9e64-eccc-4e45-a203-f65e4f695daa</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d64770f2-f4fc-425f-8209-59baa8a4d22c</string>
     <string name="error_config">Please set the %1$s constant and recompile the app.</string>
     <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
     <string name="gcm_error">GCM: error (%1$s).</string>
