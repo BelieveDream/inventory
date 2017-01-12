@@ -5,7 +5,7 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="139502454732835"
+    timestamp="140939161459441"
     token="3778818332714057619"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -17,7 +17,7 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="176" />
     <task
         name="verifier"
         duration="0" />
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="139502454732835"
+        timestamp="140939161459441"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\github\inventory\Inventory1.1\build\outputs\apk\Inventory1.1-debug.apk"
