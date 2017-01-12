@@ -106,15 +106,15 @@ public final class R {
     public static final class id {
         public static final int btn_add=0x7f0a0008;
         public static final int btn_add_inventory=0x7f0a0015;
-        public static final int btn_back=0x7f0a0024;
+        public static final int btn_back=0x7f0a002c;
         public static final int btn_confirm=0x7f0a0019;
         public static final int btn_login=0x7f0a001d;
         public static final int btn_logout=0x7f0a0014;
         public static final int btn_partnumber=0x7f0a000a;
         public static final int btn_photo=0x7f0a0009;
-        public static final int btn_remove=0x7f0a0023;
+        public static final int btn_remove=0x7f0a002b;
         public static final int btn_save=0x7f0a0012;
-        public static final int btn_search=0x7f0a0026;
+        public static final int btn_search=0x7f0a002e;
         public static final int btn_serialnumber=0x7f0a0004;
         public static final int btn_view_inventory=0x7f0a0016;
         public static final int et_email=0x7f0a001b;
@@ -123,24 +123,32 @@ public final class R {
         public static final int et_port=0x7f0a0011;
         public static final int image=0x7f0a0001;
         public static final int linearLayout1=0x7f0a000d;
-        public static final int list_inventory=0x7f0a0027;
-        public static final int menu_settings=0x7f0a0028;
+        public static final int list_inventory=0x7f0a002f;
+        public static final int menu_settings=0x7f0a0030;
         public static final int progressBar1=0x7f0a0013;
-        public static final int remove_quantity=0x7f0a0022;
-        public static final int search=0x7f0a0025;
+        public static final int remove_quantity=0x7f0a002a;
+        public static final int search=0x7f0a002d;
         public static final int spinner_description=0x7f0a000c;
         public static final int spinner_location=0x7f0a000b;
+        public static final int textView10=0x7f0a0021;
+        public static final int textView11=0x7f0a0022;
+        public static final int textView12=0x7f0a0024;
+        public static final int textView13=0x7f0a0026;
+        public static final int textView14=0x7f0a0027;
+        public static final int textView6=0x7f0a001e;
+        public static final int textView8=0x7f0a001f;
+        public static final int textView9=0x7f0a0020;
         public static final int txt_confirm=0x7f0a000f;
         public static final int txt_description=0x7f0a0003;
         public static final int txt_location=0x7f0a0007;
         public static final int txt_partnum=0x7f0a0017;
         public static final int txt_partnumber=0x7f0a0000;
         public static final int txt_quantity=0x7f0a0006;
-        public static final int txt_quantity_mark=0x7f0a0021;
-        public static final int txt_registertime=0x7f0a001f;
-        public static final int txt_registeruser=0x7f0a001e;
+        public static final int txt_quantity_mark=0x7f0a0029;
+        public static final int txt_registertime=0x7f0a0025;
+        public static final int txt_registeruser=0x7f0a0023;
         public static final int txt_remark=0x7f0a0005;
-        public static final int txt_removequantity=0x7f0a0020;
+        public static final int txt_removequantity=0x7f0a0028;
         public static final int txt_serialnum=0x7f0a0018;
         public static final int txt_serialnumber=0x7f0a0002;
         public static final int txt_title=0x7f0a000e;
@@ -190,8 +198,20 @@ public final class R {
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        
          */
         public static final int AppBaseTheme=0x7f050000;
+        /**  <item name="android:tabWidgetStyle">@style/CustomTabWidget</item> 
+ All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f050001;
         public static final int CustomTabWidget=0x7f050002;
         public static final int CustomTabWidgetText=0x7f050003;

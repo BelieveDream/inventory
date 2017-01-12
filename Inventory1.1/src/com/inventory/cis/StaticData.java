@@ -36,7 +36,7 @@ public class StaticData {
 		}
 
 		//link = "http://www.rescuestartup.com/inventory/Services/";
-		link = "http://198.18.52.11/inventory/Services/";
+		//link = "http://198.18.52.11/inventory/Services/";
 		return link;
 	}
 
