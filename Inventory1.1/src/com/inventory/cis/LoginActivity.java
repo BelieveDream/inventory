@@ -44,6 +44,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 
 
 public class LoginActivity extends Activity implements OnClickListener {
@@ -57,6 +58,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 	Typeface Set_font;
 	SessionManager session;
 	String user_id, user_pass;
+	HashMap<String, String> user;
 
 	JSONObject jobj;
 
@@ -89,6 +91,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 	private void setContent() {
 		// TODO Auto-generated method stub
 		session = new SessionManager(getApplicationContext());
+		user = session.getUserDetails();
+
 		et_email = (EditText) findViewById(R.id.et_email);
 		txt_welcome = (TextView) findViewById(R.id.txt_welcome);
 		txt_title = (TextView) findViewById(R.id.txt_title);
@@ -96,6 +100,12 @@ public class LoginActivity extends Activity implements OnClickListener {
 		btn_login = (Button) findViewById(R.id.btn_login);
 		btn_confirm = (Button) findViewById(R.id.btn_confirm);
 		et_email.setInputType(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+
+		email = user.get(session.KEY_EMAIL);
+		pass = user.get(session.KEY_UserPassword);
+
+		et_email.setText(email);
+		et_pass.setText(pass);
 	}
 
 	private void SetFont() {
@@ -134,8 +144,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 
                 email = et_email.getText().toString().toLowerCase();
 				pass = et_pass.getText().toString();
-				email = "admin";
-				pass = "admin";
+				//email = "admin";
+				//pass = "admin";
 				if (email.length() <= 0 || email.equals("")) {
 					et_email.setError("Invalid Email");
 				} else if (pass.length() <= 0 || pass.equals("")) {
@@ -258,16 +268,17 @@ public class LoginActivity extends Activity implements OnClickListener {
 	private void LoginCheck() {
 		if (login_error.equals("false")) {
 			session.createLoginSession(user_id);
+			session.registerUser(email, pass);
 			Intent i = new Intent(LoginActivity.this, homeActivity.class);
-			i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			//i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(i);
-			et_email.setText("");
-			et_pass.setText("");
+//			et_email.setText("");
+//			et_pass.setText("");
 			finish();
 			return;
 		}
-		et_email.setText("");
-		et_pass.setText("");
+//		et_email.setText("");
+//		et_pass.setText("");
 
 
 	}

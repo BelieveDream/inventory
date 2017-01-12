@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="18"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="145443097012778"
-    token="5852347129171943287"
-    verifier="COMPATIBLE" >
+    timestamp="139502454732835"
+    token="3778818332714057619"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="772" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="668" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="141" />
+        duration="0" />
     <task
         name="verifier"
-        duration="54" />
+        duration="0" />
 
     <artifact
-        location="D:\project\Android\Inventory1.1\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\github\inventory\Inventory1.1\build\outputs\apk\Inventory1.1-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="143566489066106"
+        timestamp="139502454732835"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\project\Android\Inventory1.1\build\outputs\apk\Inventory1.1-debug.apk"
+            location="D:\github\inventory\Inventory1.1\build\outputs\apk\Inventory1.1-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="145443097012778"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\project\Android\Inventory1.1\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -72,7 +72,7 @@
     <string name="DTQ">Choose Desired Trade Questions</string>
     <string name="already_registered">Device is already registered on server.</string>
     <string name="app_name">Inventory</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d64770f2-f4fc-425f-8209-59baa8a4d22c</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">ab9bea89-274b-4117-b18c-967bf5489411</string>
     <string name="error_config">Please set the %1$s constant and recompile the app.</string>
     <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
     <string name="gcm_error">GCM: error (%1$s).</string>
@@ -95,12 +95,20 @@
     <string name="state">Choose State</string>
     <string name="title_activity_main">Android Push Notifications</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="android:tabStripEnabled">false</item>
-        
-        
+        <!-- <item name="android:tabWidgetStyle">@style/CustomTabWidget</item> -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <style name="CustomTabWidget" parent="@android:style/Widget.TabWidget">
         <item name="android:textAppearance">@style/CustomTabWidgetText</item>
